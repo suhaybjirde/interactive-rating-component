@@ -33,7 +33,7 @@ ul {
 }
 .container {
     padding: 40px;
-    background-image: linear-gradient(to bottom, var(--clr-neutral-300), var(--clr-neutral-400));
+    background-image: linear-gradient(to bottom, hsl(215, 20%, 17%), hsl(215, 27%, 12%));
     max-width: 430px;
     border-radius: 30px;
     display: grid;
