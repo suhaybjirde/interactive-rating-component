@@ -22,6 +22,8 @@ main{
     align-items: center;
     justify-content: center;
     background-color: var(--clr-neutral-500);
+    flex-direction: column;
+    line-height: 1.4;
 }
 img {
     width: 100%;
@@ -30,12 +32,14 @@ ul {
     list-style: none;
 }
 .container {
-    padding: 50px;
+    padding: 40px;
     background-image: linear-gradient(to bottom, var(--clr-neutral-300), var(--clr-neutral-400));
-    max-width: 400px;
+    max-width: 430px;
     border-radius: 30px;
     display: grid;
     gap: 20px;
+    transition: .4s;
+    height: 450px;
 }
 .star-container, .rating li {
     width: 50px;
@@ -88,4 +92,27 @@ ul {
 .submit:hover {
     color: var(--clr-primay);
     background-color: var(--clr-neutral-100);
+}
+/* next page */
+
+.backside-img-container {
+    width: 200px;
+    margin-inline: auto;
+}
+.rated {
+    padding: 10px 30px 4px;
+    border-radius: 100vh;
+    text-align: center;
+    background-color: var(--clr-neutral-300);
+    color: var(--clr-primay);
+    margin-inline: auto;
+}
+.thank {
+    color: var(--clr-neutral-100);
+    font-size: 2rem;
+    text-align: center;
+}
+.appriciate {
+    color: var(--clr-neutral-350);
+    text-align: center;
 }
